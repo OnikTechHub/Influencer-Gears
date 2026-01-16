@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+header{
+    background-color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+nav {
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .logo{
+    font-size: 24px;
+    color: #3A3A3A;
+}
+nav .menu {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    align-items: center;
+}
+
+nav .menu a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #3A3A3A
+}
+
+nav .menu img {
+    width: 20px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 80px 0;
+}
+
+
+.hero-content h1 {
+  font-size: 50px;
+  color: #3A3A3A;
+}
+
+.hero-content p {
+  margin: 20px 0;
+  color: #3A3A3A;
+}
+.hero-image img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.btn-primary{
+    background: #e02c6d;
+    border: none;
+    font-size: 20px;
+    padding: 10px 24px 10px 24px;
+    border-radius: 20px;
+    weight: 190px;
+    color: white;
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    cursor: pointer;
+}
+.btn-primary img {
+    width: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
