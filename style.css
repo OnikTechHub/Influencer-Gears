@@ -21,38 +21,38 @@ body {
 
 
 nav {
-    margin: 80px auto;
-    display: flex;
-    justify-content: space-between;
+  margin: 80px auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 nav .logo{
-    font-size: 24px;
-    color: #3A3A3A;
+  font-size: 24px;
+  color: #3A3A3A;
 }
 nav .menu {
-    display: flex;
-    list-style: none;
-    gap: 32px;
-    align-items: center;
+  display: flex;
+  list-style: none;
+  gap: 32px;
+  align-items: center;
 }
 
 nav .menu a {
-    font-size: 16px;
-    text-decoration: none;
-    color: #3A3A3A
+  font-size: 16px;
+  text-decoration: none;
+  color: #3A3A3A
 }
 
 nav .menu img {
-    width: 20px;
+  width: 20px;
 }
 
 .hero {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 50px;
-    margin: 80px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  margin: 80px 0;
 }
 
 
@@ -66,27 +66,69 @@ nav .menu img {
   color: #3A3A3A;
 }
 .hero-image img {
-  width: 100%;
-  max-width: 400px;
+  width: 450px;
 }
 
 .btn-primary{
-    background: #e02c6d;
-    border: none;
-    font-size: 20px;
-    padding: 10px 24px 10px 24px;
-    border-radius: 20px;
-    weight: 190px;
-    color: white;
-    align-items: center;
-    display: flex;
-    gap: 8px;
-    cursor: pointer;
+  background: #e02c6d;
+  border: none;
+  font-size: 20px;
+  padding: 10px 24px 10px 24px;
+  border-radius: 20px;
+  weight: 190px;
+  color: white;
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  cursor: pointer;
 }
 .btn-primary img {
-    width: 20px;
-    display: flex;
-    align-items: center;
+  width: 20px;
+  display: flex;
+  align-items: center;
 }
+
+.sponsors{
+  margin: 80px 0;
+  padding: 30px 0;
+  border-width: 100%;
+  border: 1px solid #eee;
+  margin-bottom: 1px solid #3a3a3a00;
+}
+
+.sponsor-logos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.sponsor-logos img {
+  width: 100px;
+  height: 25px;
+}
+
+/* responsive media query */
+
+@media screen and (max-width: 576px) {
+  .navbar, .menu, .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .hero-content h1 {
+    font-size: 32px;
+  }
+  .sponsor-logos {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .sponsor-logos img {
+    width: 80px;
+  }
+
+}
+
 
 
