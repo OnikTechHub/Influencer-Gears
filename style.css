@@ -215,6 +215,36 @@ nav .menu img {
     transition: 0.3s;
 }
 
+.footer {
+  background: #0A0826;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.footer h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  font-size: 14px;
+  color: #D9DBE1;
+}
+
+.social-icons {
+  margin-top: 15px;
+}
+
+.social-icons img {
+  width: 32px;
+  margin: 0 8px;
+  border-radius: 50%;
+    filter: grayscale(100%);
+
+}
+
+
 /* responsive media query */
 
 @media screen and (max-width: 576px) {
