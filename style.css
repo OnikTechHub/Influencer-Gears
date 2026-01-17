@@ -265,7 +265,7 @@ nav .menu img {
   .sponsor-logos img {
     width: 80px;
   }
-  .card-container, .sponsor-logos img {
+  .card-container, .sponsor-logos{
     grid-template-columns: 1fr;
   }
 
@@ -277,9 +277,19 @@ nav .menu img {
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
-  .card-container, .sponsor-logos img {
+  .navbar, .menu, .hero {
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+  }
+  .card-container{
     grid-template-columns: repeat(2, 1fr);
   }
+  .sponsor-logos {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
 }
 
 
